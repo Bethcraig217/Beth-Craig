@@ -1,15 +1,17 @@
  
 :root {
     --branding-color: #6c63ff;
-    --secondary-color: #f9f7fe;
+    
 
 }
 .navbar-brand {
     font-size: 50px;
-    line-height: 39px;
+    line-height: 25px;
     font-weight: 800px;
-    color: #403c3c;
+    color: black;
     font-family: Ansichtkaart Demo;
+    text-align: center;
+    text-decoration: none;
 }
 p{
     font-family: Ansichtkaart Demo;
@@ -19,13 +21,25 @@ h1{
 }
 .mb-5{
     font-family: Ansichtkaart Demo;
+    font-size: 30px;
+   
 }
+
 .navbar-nav {
     font-size: 40px;
-    line-height: 39px;
-    font-weight: 800px;
-    color: #403c3c;
+    line-height: 25px;
+    font-weight: 900px;
+   text-decoration: none;
     font-family: Ansichtkaart Demo;
+    color: black;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 50px;
+    text-decoration: none;
 }
 
 .btn {
@@ -91,7 +105,7 @@ p {
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
-    color: white;
+ 
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
@@ -133,11 +147,29 @@ p {
         padding: 0;
         text-align: center;
     }
-  
+  img {
+      width: 60%;
+  }
   
 }
-p{
- 
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-desciption {
+        padding: 0;
+        text-align: center;
+    }
 }
 span {
     content: "\2936";
